@@ -36,7 +36,7 @@ A sample test dataset is now available: **12 industrial scan frames across Door,
 - [Browse Data/ in the repository](Data/) — the complete sample dataset, organized by component and frame.
 - [Download test data v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.1.0/FigReg-test-data-v1.1.0.zip) — ZIP, 159.8 MB.
 - [Release notes and checksum](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0).
-- ZIP SHA-256: `8cace37c2237eb8f8b2b81258fa318834044b17c8284c53dd20251ec17d20747`.
+- ZIP SHA-256: `7f6a57e52eb6b3923566c127df2286d1738a6bd717dad0419052157ee3d434c2`.
 
 | Group | Frames |
 | --- | --- |
@@ -45,7 +45,6 @@ A sample test dataset is now available: **12 industrial scan frames across Door,
 | Bumper | 1-W-1, 1-W-2, 1-W-3 |
 | HT | 1-W-1, 1-W-2, 1-W-3 |
 
-All four groups use the unified frame identifiers **1-W-1, 1-W-2, 1-W-3**. Directories and JPG/NPZ/PLY filenames have been renamed together; file contents are unchanged. [FRAME_MAPPING.csv](Data/FRAME_MAPPING.csv) preserves the original acquisition identifiers.
 
 Use the repository’s [Data/ directory](Data/) directly, clone the repository, or extract the data-only release ZIP. GitHub **Code > Download ZIP** also includes `Data/`. Each frame contains `<frame>_Image.jpg`, `<frame>.npz` and `<frame>.ply`. The NPZ contains the processed pixel-aligned `XTemp`, `YTemp`, `Z` maps in millimetres, with the same dimensions as its image. Keep the images and XYZ maps paired. See [Data/README.md](Data/README.md) for preparation and integrity checks.
 
