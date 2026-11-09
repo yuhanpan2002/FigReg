@@ -1,7 +1,8 @@
 [
   {
     "group": "Door",
-    "frame": "1-W-2",
+    "frame": "1-W-1",
+    "original_frame": "1-W-2",
     "shape": [
       1200,
       2048
@@ -10,17 +11,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Door/1-W-2/1-W-2_Image.jpg",
+        "path": "Door/1-W-1/1-W-1_Image.jpg",
         "bytes": 426053,
         "sha256": "0df109eacb00e03c10ea3b04657742343d6aa9d5c1f83247da196fefafe6d498"
       },
       {
-        "path": "Door/1-W-2/1-W-2.npz",
+        "path": "Door/1-W-1/1-W-1.npz",
         "bytes": 12205330,
         "sha256": "b1f5f99d88a5c2585ad9397d1c2350977ea4acb9b56233c7757e7bd407ed3d5f"
       },
       {
-        "path": "Door/1-W-2/1-W-2.ply",
+        "path": "Door/1-W-1/1-W-1.ply",
         "bytes": 12346121,
         "sha256": "86584f66ee6296f59830e3befe5ea6a2170e4050e065eb2f711ed5f9279a5a7a"
       }
@@ -28,7 +29,8 @@
   },
   {
     "group": "Door",
-    "frame": "1-W-3",
+    "frame": "1-W-2",
+    "original_frame": "1-W-3",
     "shape": [
       1200,
       2048
@@ -37,17 +39,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Door/1-W-3/1-W-3_Image.jpg",
+        "path": "Door/1-W-2/1-W-2_Image.jpg",
         "bytes": 445451,
         "sha256": "0dd3964886f327ef4b8465557ec3f8321dd8080f04ad95ee1b46e2ec6e94878c"
       },
       {
-        "path": "Door/1-W-3/1-W-3.npz",
+        "path": "Door/1-W-2/1-W-2.npz",
         "bytes": 13453350,
         "sha256": "100de29797887c743390b18c8ab7556dce18f9a950fdbd24b569e33770c77ce9"
       },
       {
-        "path": "Door/1-W-3/1-W-3.ply",
+        "path": "Door/1-W-2/1-W-2.ply",
         "bytes": 12174428,
         "sha256": "fdc8494525b11f315f20270877fecd113dacec95bb99990a125bf82a2fc2634a"
       }
@@ -55,7 +57,8 @@
   },
   {
     "group": "Door",
-    "frame": "1-W-4",
+    "frame": "1-W-3",
+    "original_frame": "1-W-4",
     "shape": [
       1200,
       2048
@@ -64,17 +67,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Door/1-W-4/1-W-4_Image.jpg",
+        "path": "Door/1-W-3/1-W-3_Image.jpg",
         "bytes": 438457,
         "sha256": "40d30d88e7fe4c9495ef3756b9719bda2552a802ebd0dc2ef0f1f6875a491824"
       },
       {
-        "path": "Door/1-W-4/1-W-4.npz",
+        "path": "Door/1-W-3/1-W-3.npz",
         "bytes": 13597583,
         "sha256": "3c7f91d2e7165d1b35c4fe4d25a9e4e50cab418eab60c078a5d16baaf7d16057"
       },
       {
-        "path": "Door/1-W-4/1-W-4.ply",
+        "path": "Door/1-W-3/1-W-3.ply",
         "bytes": 12345878,
         "sha256": "b0460aac1c01a735a242a7d698f37ba8db9fbcd76e121dcd8daa16868ae8f242"
       }
@@ -82,7 +85,8 @@
   },
   {
     "group": "Fender",
-    "frame": "1-W-3",
+    "frame": "1-W-1",
+    "original_frame": "1-W-3",
     "shape": [
       1200,
       2048
@@ -91,17 +95,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Fender/1-W-3/1-W-3_Image.jpg",
+        "path": "Fender/1-W-1/1-W-1_Image.jpg",
         "bytes": 373647,
         "sha256": "48d2860efc82a86326fa1bdc7da114a3c99d4e6898ffbe2210bb526f8764baad"
       },
       {
-        "path": "Fender/1-W-3/1-W-3.npz",
+        "path": "Fender/1-W-1/1-W-1.npz",
         "bytes": 13675973,
         "sha256": "bc2148ffdd93b3219d2cfce83cc4a38de5b9f3f8a82741be952821bd94106ec2"
       },
       {
-        "path": "Fender/1-W-3/1-W-3.ply",
+        "path": "Fender/1-W-1/1-W-1.ply",
         "bytes": 13391696,
         "sha256": "cf5b8357d3d07bde861c427975d15bc951c3bcfe7652598436dd0f2c93ebde16"
       }
@@ -109,7 +113,8 @@
   },
   {
     "group": "Fender",
-    "frame": "1-W-4",
+    "frame": "1-W-2",
+    "original_frame": "1-W-4",
     "shape": [
       1200,
       2048
@@ -118,17 +123,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Fender/1-W-4/1-W-4_Image.jpg",
+        "path": "Fender/1-W-2/1-W-2_Image.jpg",
         "bytes": 353150,
         "sha256": "5abfa1fdd73e16b2d4e7b99b0c96270eec6ba4b56ec8dd242c04fde30b3da6e3"
       },
       {
-        "path": "Fender/1-W-4/1-W-4.npz",
+        "path": "Fender/1-W-2/1-W-2.npz",
         "bytes": 12116169,
         "sha256": "c2748c0e616af7ad5e0a9446219f3bddcfc49134e7db3957c6a1bc9119b569de"
       },
       {
-        "path": "Fender/1-W-4/1-W-4.ply",
+        "path": "Fender/1-W-2/1-W-2.ply",
         "bytes": 12881396,
         "sha256": "ad221631ba5ae21e9af1162897f378c53319e7820a9ffc4c93eeda38d35dc57f"
       }
@@ -136,7 +141,8 @@
   },
   {
     "group": "Fender",
-    "frame": "1-W-5",
+    "frame": "1-W-3",
+    "original_frame": "1-W-5",
     "shape": [
       1200,
       2048
@@ -145,17 +151,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "Fender/1-W-5/1-W-5_Image.jpg",
+        "path": "Fender/1-W-3/1-W-3_Image.jpg",
         "bytes": 333389,
         "sha256": "b5c7569b1b57f15d66f7eef7236bff007ec8d2383cca064751251c5d655f03ce"
       },
       {
-        "path": "Fender/1-W-5/1-W-5.npz",
+        "path": "Fender/1-W-3/1-W-3.npz",
         "bytes": 9941969,
         "sha256": "e341201d9807807fca5fbb3bca57115fe9c2319aaaa8369e6f97614be83535cf"
       },
       {
-        "path": "Fender/1-W-5/1-W-5.ply",
+        "path": "Fender/1-W-3/1-W-3.ply",
         "bytes": 12082979,
         "sha256": "4e633b692847b06472f35bcf108daba8fb332dc7d24df1d6d07bae67881fecd2"
       }
@@ -164,6 +170,7 @@
   {
     "group": "Bumper",
     "frame": "1-W-1",
+    "original_frame": "1-W-1",
     "shape": [
       1200,
       2048
@@ -191,6 +198,7 @@
   {
     "group": "Bumper",
     "frame": "1-W-2",
+    "original_frame": "1-W-2",
     "shape": [
       1200,
       2048
@@ -218,6 +226,7 @@
   {
     "group": "Bumper",
     "frame": "1-W-3",
+    "original_frame": "1-W-3",
     "shape": [
       1200,
       2048
@@ -244,7 +253,8 @@
   },
   {
     "group": "HT",
-    "frame": "4-W-1",
+    "frame": "1-W-1",
+    "original_frame": "4-W-1",
     "shape": [
       1200,
       2048
@@ -253,17 +263,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "HT/4-W-1/4-W-1_Image.jpg",
+        "path": "HT/1-W-1/1-W-1_Image.jpg",
         "bytes": 104318,
         "sha256": "1658dd3daa86510f478318f0e318b9c26d48ff040691921f08240cda4996d1c1"
       },
       {
-        "path": "HT/4-W-1/4-W-1.npz",
+        "path": "HT/1-W-1/1-W-1.npz",
         "bytes": 1714718,
         "sha256": "3a2d3d4158128ff4f6211d9277286abc5bd53cda91595b84da93d2bee498d7d0"
       },
       {
-        "path": "HT/4-W-1/4-W-1.ply",
+        "path": "HT/1-W-1/1-W-1.ply",
         "bytes": 2792711,
         "sha256": "a16e974ed9bef679f99ece70acdbf42a0908a0d1a8d230e9ea33ce6a335faf1c"
       }
@@ -271,7 +281,8 @@
   },
   {
     "group": "HT",
-    "frame": "4-W-2",
+    "frame": "1-W-2",
+    "original_frame": "4-W-2",
     "shape": [
       1200,
       2048
@@ -280,17 +291,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "HT/4-W-2/4-W-2_Image.jpg",
+        "path": "HT/1-W-2/1-W-2_Image.jpg",
         "bytes": 108928,
         "sha256": "b960389221696bd1a84410daab24b1fefd3ff9cf9b8601979c2aefd4cb6c99ef"
       },
       {
-        "path": "HT/4-W-2/4-W-2.npz",
+        "path": "HT/1-W-2/1-W-2.npz",
         "bytes": 1715345,
         "sha256": "c33f2d009d90c15d097c38a5fa242b1e90ccb5139cdb2c36c01a84ac08f4bb64"
       },
       {
-        "path": "HT/4-W-2/4-W-2.ply",
+        "path": "HT/1-W-2/1-W-2.ply",
         "bytes": 2755556,
         "sha256": "bf6f955059a0b79ff9430f66ff8a821dc69c1583c9f935dfb06b8dca64ea2809"
       }
@@ -298,7 +309,8 @@
   },
   {
     "group": "HT",
-    "frame": "4-W-3",
+    "frame": "1-W-3",
+    "original_frame": "4-W-3",
     "shape": [
       1200,
       2048
@@ -307,17 +319,17 @@
     "xyz_version": "processed_npz",
     "files": [
       {
-        "path": "HT/4-W-3/4-W-3_Image.jpg",
+        "path": "HT/1-W-3/1-W-3_Image.jpg",
         "bytes": 103128,
         "sha256": "01a820a295e3a78f073a7d7c84bbb0377e18f2ea310a0d9819083e557a774151"
       },
       {
-        "path": "HT/4-W-3/4-W-3.npz",
+        "path": "HT/1-W-3/1-W-3.npz",
         "bytes": 1710526,
         "sha256": "2ded15d71042fbcb0c4246dc090086286ca3fa370151d8cfcfaa40cd8b178e7e"
       },
       {
-        "path": "HT/4-W-3/4-W-3.ply",
+        "path": "HT/1-W-3/1-W-3.ply",
         "bytes": 2770196,
         "sha256": "b5ba758ecc4503cae370b156790e8c7f4ea658280365a14a85e36e30a81be491"
       }
