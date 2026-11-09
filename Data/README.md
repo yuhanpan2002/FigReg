@@ -21,7 +21,7 @@ Data/Door/1-W-1/
 
 Each group has three frame directories with this structure. NPZ files contain processed pixel-aligned XYZ maps with keys `XTemp`, `YTemp`, `Z`, shape 1200 x 2048, and coordinates in millimetres. Non-finite XYZ pixels are invalid. Images and XYZ maps must remain paired. A generic PLY alone does not supply pixel-to-XYZ correspondences.
 
-`manifest.json` records frame identifiers, dimensions, valid-pixel counts and file hashes. No ground-truth transformations, executable, model weights or source code are included.
+No ground-truth transformations, executable, model weights or source code are included.
 
 ## Download and preparation
 
@@ -35,11 +35,3 @@ Door/1-W-3
 ```
 
 Relative paths refer to the demo's Data directory. Real absolute frame-directory paths also work. The demo is distributed separately; data alone does not run registration.
-
-## Integrity
-
-From the Data directory on Linux/WSL:
-
-```bash
-sha256sum -c SHA256SUMS
-```
