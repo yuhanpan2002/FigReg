@@ -10,6 +10,12 @@ This is a sample for testing, not the full manuscript evaluation dataset.
 | Bumper | 1-W-1, 1-W-2, 1-W-3 |
 | HT | 1-W-1, 1-W-2, 1-W-3 |
 
+## Shared preprocessing and inputs
+
+The images and PLY point clouds have undergone consistent downsampling preprocessing. The provided images have a resolution of **1200 × 2048 pixels**. This preprocessing reduces memory consumption and helps prevent out-of-memory (OOM) errors when running comparison methods.
+
+**All compared methods receive the same preprocessed input data for each pair**, ensuring a consistent basis for comparison.
+
 ## Frame structure
 
 ```text
