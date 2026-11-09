@@ -6,7 +6,11 @@ This demo provides a compiled FigReg executable, the EDM checkpoint, bundled run
 
 [Download the FigReg demo from Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view). Download `FigRegDemo-linux-x64.tar.gz` using the download button on the file page. If Google Drive displays a file-size or virus-scan confirmation, choose **Download anyway** to proceed.
 
-The demo is distributed separately from GitHub as `FigRegDemo-linux-x64.tar.gz` (4.15 GB download; approximately 8.15 GB after extraction). Keep the entire extracted directory together, including `weights/edm_outdoor.ckpt` and the bundled libraries.
+The demo is distributed separately from GitHub as `FigRegDemo-linux-x64.tar.gz` (4.15 GB download; approximately 8.15 GB after extraction).
+
+**The archive bundles the Python runtime, PyTorch, Open3D, CUDA runtime libraries and other required software dependencies, together with the model checkpoint and sample data. These bundled dependencies account for most of the package size. No separate Conda environment or Python/PyTorch/Open3D installation is needed: extract the archive and run `./FigRegDemo` to test the supplied data on a compatible Linux/WSL2 system with an NVIDIA GPU and driver.** Conda itself is not included or required.
+
+Keep the entire extracted directory together, including `weights/edm_outdoor.ckpt` and the bundled libraries.
 
 ## Requirements
 
