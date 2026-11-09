@@ -31,11 +31,26 @@ Results are reported in the manuscript using an Intel Core i7-10750H CPU and an 
 
 ## Resources
 
-Selected real-world measurement data and a runnable demo will be made publicly available after publication of the paper.
+A sample test dataset is now available: **12 industrial scan frames across Door, Fender, Bumper and HT**. The full manuscript evaluation dataset and runnable demo are not included in this data-only release.
+
+- [Download test data v1.0.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.0.0/FigReg-test-data-v1.0.0.zip) — ZIP, 159.8 MB.
+- [Release notes and checksum](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.0.0).
+- ZIP SHA-256: `76bd6593ed9f6161a4ad3c28405d0352d80647f0ef161f8d7b3a9a5e45f4c489`.
+
+| Group | Frames |
+| --- | --- |
+| Door | 1-W-2, 1-W-3, 1-W-4 |
+| Fender | 1-W-3, 1-W-4, 1-W-5 |
+| Bumper | 1-W-1, 1-W-2, 1-W-3 |
+| HT | 4-W-1, 4-W-2, 4-W-3 |
+
+Extract the ZIP to obtain `Data/`. Each frame contains `<frame>_Image.jpg`, `<frame>.npz` and `<frame>.ply`. The NPZ contains the processed pixel-aligned `XTemp`, `YTemp`, `Z` maps in millimetres, with the same dimensions as its image. Keep the images and XYZ maps paired. See `Data/README.md` inside the archive for preparation and integrity checks.
+
+When using the separately distributed demo, place `Data` beside the executable and enter the reference and source frame directories, for example `Door/1-W-2`, then `Door/1-W-4`. Real absolute frame-directory paths are also accepted. This release contains data only; no executable, model weights, ground-truth transformations or source code are included.
 
 | Resource | Documentation |
 | --- | --- |
 | Environment setup | To be added |
-| Data and preparation | To be added |
-| Code and demo usage | To be added |
+| Data and preparation | [Sample dataset v1.0.0](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.0.0); README included in the ZIP |
+| Code and demo usage | Demo release pending |
 | Configuration | To be added |
