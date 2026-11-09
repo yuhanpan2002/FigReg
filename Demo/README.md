@@ -4,7 +4,7 @@ This demo provides a compiled FigReg executable, the EDM checkpoint, bundled run
 
 ## Download
 
-The download link will be added after the archive is uploaded to Google Drive and verified.
+[Download the FigReg demo from Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view). Download `FigRegDemo-linux-x64.tar.gz` using the download button on the file page. If Google Drive displays a file-size or virus-scan confirmation, choose **Download anyway** to proceed.
 
 The demo is distributed separately from GitHub as `FigRegDemo-linux-x64.tar.gz` (4.15 GB download; approximately 8.15 GB after extraction). Keep the entire extracted directory together, including `weights/edm_outdoor.ckpt` and the bundled libraries.
 

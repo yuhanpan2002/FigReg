@@ -33,7 +33,7 @@ No ground-truth transformations, executable, model weights or source code are in
 
 Browse this directory, clone the repository, use GitHub **Code > Download ZIP**, or download [the data-only ZIP](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0).
 
-Keep Data and its filenames unchanged. When a FigReg demo is available, place Data beside the executable. The first input is reference and the second source, for example:
+Keep Data and its filenames unchanged. The [FigReg demo](../Demo/README.md) includes Data beside the executable. The first input is reference and the second source, for example:
 
 ```text
 Door/1-W-1

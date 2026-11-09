@@ -31,9 +31,9 @@ Results are reported in the manuscript using an Intel Core i7-10750H CPU and an 
 
 ## Resources
 
-A sample test dataset is now available: **12 industrial scan frames across Door, Fender, Bumper and HT**. The full manuscript evaluation dataset and runnable demo are not included in this data-only release.
+A runnable Linux/WSL2 demo and a sample test dataset are available. The sample contains **12 industrial scan frames across Door, Fender, Bumper and HT**. The full manuscript evaluation dataset is not included.
 
-- [Demo usage and download](Demo/) — compiled Linux/WSL2 demo with bundled runtime dependencies.
+- [Download the demo from Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view) — 4.15 GB archive containing the compiled executable, model checkpoint, runtime dependencies and sample data. See [Demo/README.md](Demo/README.md) for usage.
 - [Browse Data/ in the repository](Data/) — the complete sample dataset, organized by component and frame.
 - [Download test data v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.1.0/FigReg-test-data-v1.1.0.zip?download=1) — ZIP, 159.8 MB.
 - [Release notes](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0).
@@ -46,13 +46,13 @@ A sample test dataset is now available: **12 industrial scan frames across Door,
 | HT | 1-W-1, 1-W-2, 1-W-3 |
 
 
-Use the repository’s [Data/ directory](Data/) directly, clone the repository, or extract the data-only release ZIP. GitHub **Code > Download ZIP** also includes `Data/`. Each frame contains `<frame>_Image.jpg`, `<frame>.npz` and `<frame>.ply`. The NPZ contains the processed pixel-aligned `XTemp`, `YTemp`, `Z` maps in millimetres, with the same dimensions as its image. Keep the images and XYZ maps paired. See [Data/README.md](Data/README.md) for preparation and integrity checks.
+Use the repository’s [Data/ directory](Data/) directly, clone the repository, or extract the data-only release ZIP. GitHub **Code > Download ZIP** also includes `Data/`. Each frame contains `<frame>_Image.jpg`, `<frame>.npz` and `<frame>.ply`. The NPZ contains the processed pixel-aligned `XTemp`, `YTemp`, `Z` maps in millimetres, with the same dimensions as its image. Keep the images and XYZ maps paired. See [Data/README.md](Data/README.md) for input preparation.
 
-When using the separately distributed demo, place `Data` beside the executable and enter the reference and source frame directories, for example `Door/1-W-1`, then `Door/1-W-3`. Real absolute frame-directory paths are also accepted. This release contains data only; no executable, model weights, ground-truth transformations or source code are included.
+The demo archive already includes `Data` beside the executable. Enter the reference and source frame directories, for example `Door/1-W-1`, then `Door/1-W-3`. Real absolute frame-directory paths are also accepted. The GitHub data-only release contains the sample inputs; the runnable demo is distributed through Google Drive.
 
 | Resource | Documentation |
 | --- | --- |
-| Environment setup | To be added |
+| Environment setup | [Demo requirements](Demo/README.md#requirements); runtime dependencies are bundled |
 | Data and preparation | [Browse Data/](Data/) or [Sample dataset v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0); README included in the ZIP |
 | Code and demo usage | [Demo/README.md](Demo/README.md) |
 | Configuration | To be added |
