@@ -34,7 +34,7 @@ Results are reported in the manuscript using an Intel Core i7-10750H CPU and an 
 A sample test dataset is now available: **12 industrial scan frames across Door, Fender, Bumper and HT**. The full manuscript evaluation dataset and runnable demo are not included in this data-only release.
 
 - [Browse Data/ in the repository](Data/) — the complete sample dataset, organized by component and frame.
-- [Download test data v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.1.0/FigReg-test-data-v1.1.0.zip) — ZIP, 159.8 MB.
+- [Download test data v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.1.0/FigReg-test-data-v1.1.0.zip?download=1) — ZIP, 159.8 MB.
 - [Release notes and checksum](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0).
 - ZIP SHA-256: `7f6a57e52eb6b3923566c127df2286d1738a6bd717dad0419052157ee3d434c2`.
 
