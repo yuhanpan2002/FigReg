@@ -4,7 +4,14 @@ This demo provides a compiled FigReg executable, the EDM checkpoint, bundled run
 
 ## Download
 
-[Download the FigReg demo from Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view). Download `FigRegDemo-linux-x64.tar.gz` using the download button on the file page. If Google Drive displays a file-size or virus-scan confirmation, choose **Download anyway** to proceed.
+Download `FigRegDemo-linux-x64.tar.gz` from either location:
+
+| Download | Access code |
+| --- | --- |
+| [Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view) | Not required |
+| [Baidu Netdisk (China mirror)](https://pan.baidu.com/s/1Xq4lspleHlzP_q1b2eChLA?pwd=8frh) | `8frh` |
+
+Both links provide the same demo package. On Google Drive, use the download button on the file page. If a file-size or virus-scan confirmation appears, choose **Download anyway** to proceed.
 
 The demo is distributed separately from GitHub as `FigRegDemo-linux-x64.tar.gz` (4.15 GB download; approximately 8.15 GB after extraction).
 

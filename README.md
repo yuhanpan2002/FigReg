@@ -34,6 +34,7 @@ Results are reported in the manuscript using an Intel Core i7-10750H CPU and an 
 A runnable Linux/WSL2 demo and a sample test dataset are available. The sample contains **12 industrial scan frames across Door, Fender, Bumper and HT**. The full manuscript evaluation dataset is not included.
 
 - [Download the demo from Google Drive](https://drive.google.com/file/d/1LGltFonAwf4sPGXTRau4SLdcm_7X7zih/view) — 4.15 GB archive containing the compiled executable, model checkpoint, runtime dependencies and sample data. See [Demo/README.md](Demo/README.md) for usage.
+- [Download the demo from Baidu Netdisk (China mirror)](https://pan.baidu.com/s/1Xq4lspleHlzP_q1b2eChLA?pwd=8frh) — same demo package; access code: `8frh`.
 - [Browse Data/ in the repository](Data/) — the complete sample dataset, organized by component and frame.
 - [Download test data v1.1.0](https://github.com/yuhanpan2002/FigReg/releases/download/data-v1.1.0/FigReg-test-data-v1.1.0.zip?download=1) — ZIP, 159.8 MB.
 - [Release notes](https://github.com/yuhanpan2002/FigReg/releases/tag/data-v1.1.0).
