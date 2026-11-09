@@ -1,6 +1,6 @@
 # FigReg runnable demo
 
-This demo provides a compiled FigReg executable, the EDM checkpoint, bundled runtime dependencies and sample input data. No separate Conda, Python, PyTorch or Open3D installation is required. The development source code, build artifacts and test records are not included.
+This demo provides a compiled FigReg executable, the EDM checkpoint, bundled runtime dependencies and sample input data. No separate Conda, Python, PyTorch or Open3D installation is required.
 
 ## Download
 
@@ -13,8 +13,6 @@ The demo is distributed separately from GitHub as `FigRegDemo-linux-x64.tar.gz` 
 - Linux x86_64, or Windows with WSL2 and a Linux distribution. This executable does not run directly in Windows.
 - An NVIDIA GPU with a compatible driver and CUDA support available inside Linux/WSL2. The bundled CUDA runtime does not replace the host GPU driver.
 - Enough disk space for both the archive and extracted directory, plus generated results.
-
-The demo was tested on Ubuntu 22.04 under WSL2 with an RTX 4060 (8 GB). Compatibility with other hardware and Linux distributions has not yet been independently validated. Run `nvidia-smi` inside Linux/WSL2 to check GPU visibility.
 
 ## Extract and run
 
@@ -62,7 +60,7 @@ reference_frame/
 └── reference_frame.ply
 ```
 
-Use matching basenames for the directory and its files. The NPZ must contain pixel-aligned `XTemp`, `YTemp` and `Z` arrays with the same dimensions as the image; coordinates are in millimetres. Non-finite XYZ pixels are invalid. The supplied samples have image and XYZ-map dimensions of 1200 × 2048. A PLY file alone is insufficient. See [Data/README.md](../Data/README.md) for details.
+Use matching basenames for the directory and its files. The NPZ must contain pixel-aligned `XTemp`, `YTemp` and `Z` arrays with the same dimensions as the image; coordinates are in millimetres. Non-finite XYZ pixels are invalid. See [Data/README.md](../Data/README.md) for details.
 
 ## Results and timing
 
@@ -80,14 +78,5 @@ Two result files are saved under `outputs/<timestamp>/<pair>/`:
 | `registered.ply` | Merged registered point cloud: reference in blue, transformed source in orange |
 
 No visualization window is opened. You can inspect the PLY with a point-cloud viewer.
-
-This demo performs pose estimation without a subsequent ICP/G-ICP refinement step. Its timing and RMSE should be interpreted according to the definitions above, separately from the full manuscript evaluation.
-
-## Troubleshooting
-
-- **Permission denied:** run `chmod +x FigRegDemo` and retry.
-- **CUDA unavailable:** check `nvidia-smi` inside Linux/WSL2 and the installed NVIDIA driver. The demo requires an NVIDIA GPU.
-- **Checkpoint missing:** verify that `weights/edm_outdoor.ckpt` remains beside the executable in the extracted directory structure.
-- **Input rejected:** check the frame-directory name, matching file basenames, NPZ keys and image/XYZ alignment. Quote paths containing spaces when using command-line arguments.
 
 Third-party license notices are included in `THIRD_PARTY_NOTICES/`.
